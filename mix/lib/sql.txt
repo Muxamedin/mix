@@ -1,0 +1,10 @@
+
+update row 
+UPDATE 'statuses' SET name = 'InProgress' WHERE id = 5
+
+UPDATE 'tasks' SET project = 2 WHERE id = 1
+
+-image [image create photo C:/Users/build/Desktop/ico.png]
+
+$treeview identify region $x $y   - определет регион по координатам : heading separator tree cell
+если клик по ячейке  - то $treeview identify item $x $y  - вернет имя элемента 
